@@ -1,3 +1,5 @@
+Inserts
+
 INSERT INTO tb_categoria (id, descricao) VALUES (1, 'Curso'), (2, 'Oficina'); create database db_desafio;
 
 INSERT INTO tb_bloco (id, inicio, fim) VALUES (1, '2017-09-25 08:00:00', '2017-09-25 11:00:00'), (2, '2017-09-25 14:00:00', '2017-09-25 18:00:00'), (3, '2017-09-26 08:00:00', '2017-09-26 11:00:00');
