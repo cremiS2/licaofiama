@@ -18,7 +18,7 @@ public class Categoria {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private Integer descricao;
+	private String descricao;
 	
 	@OneToMany(mappedBy = "categoria")  
     private List<Atividade> atividades;
